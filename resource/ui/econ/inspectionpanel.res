@@ -505,7 +505,6 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"HudFontSmallest"
 			"xpos"			"8"
 			"ypos"			"75"
 			"fixed_item"
@@ -546,7 +545,6 @@
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
-			"font"			"HudFontSmallest"
 			"xpos"			"90"
 			"ypos"			"75"
 			"fixed_item"
@@ -580,7 +578,6 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
 			"ypos"			"75"
 			"fixed_item"

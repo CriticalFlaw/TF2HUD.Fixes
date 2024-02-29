@@ -497,8 +497,8 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -516,8 +516,8 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		

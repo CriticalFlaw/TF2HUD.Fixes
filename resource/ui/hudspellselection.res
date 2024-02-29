@@ -2,13 +2,11 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"160"
-		"xpos_minmode"			"101"
-		"ypos_minmode"			"r60"
-		
+		"xpos"			"130"
+
 		"if_killstreak_visible"
 		{
-			"ypos_minmode"			"r90"
+			"xpos"			"160"
 		}
 	}
 			
@@ -125,7 +123,7 @@
 		"xpos_minmode"	"46"
 		"ypos_minmode"	"37"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"19"
 		"fgcolor"		"tanlight"
 	}
 }

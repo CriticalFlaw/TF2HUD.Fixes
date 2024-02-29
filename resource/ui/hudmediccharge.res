@@ -193,11 +193,11 @@
 		"ypos"			"-25"
 		"wide"			"36"
 		"tall"			"36"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}
+	
 }

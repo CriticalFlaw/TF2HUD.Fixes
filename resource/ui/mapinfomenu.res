@@ -139,7 +139,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-75"
+		"xpos"			"c-50"
 		"ypos"			"r40"
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
@@ -181,7 +181,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"default"		"1"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}

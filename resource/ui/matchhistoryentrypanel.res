@@ -211,7 +211,7 @@
 			{
 				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"KillsMedal"
-				"xpos"			"p0.2"
+				"xpos"			"p0.2-10"
 				"ypos"			"2"
 				"wide"			"o1"
 				"tall"			"10"
@@ -224,7 +224,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"KillsLabel"
-				"xpos"			"p0.2+10"
+				"xpos"			"p0.2"
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"15"
@@ -242,7 +242,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"DeathsLabel"
-				"xpos"			"p0.2+10"
+				"xpos"			"p0.2"
 				"ypos"			"10"
 				"wide"			"f0"
 				"tall"			"15"
@@ -260,7 +260,7 @@
 			{
 				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"DamageMedal"
-				"xpos"			"p0.2"
+				"xpos"			"p0.2-10"
 				"ypos"			"22"
 				"wide"			"o1"
 				"tall"			"10"
@@ -273,7 +273,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"DamageLabel"
-				"xpos"			"p0.2+10"
+				"xpos"			"p0.2"
 				"ypos"			"20"
 				"wide"			"f0"
 				"tall"			"15"

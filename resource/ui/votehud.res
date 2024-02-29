@@ -554,7 +554,7 @@
 		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
-		"parameter_width"	"168"
+		"parameter_width"	"200"
 
 		"TitleLabel"
 		{

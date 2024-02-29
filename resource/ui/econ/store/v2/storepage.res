@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"max_cart_model_panels"	"14"
+		"max_cart_model_panels"	"10"
 		
 		"item_ypos"		"70"
 		
@@ -141,11 +141,11 @@
 		"cart_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
+			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
 			"zpos"			"15"
-			"wide"			"21"
+			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
 			"pinCorner"		"0"	
@@ -717,7 +717,7 @@
 		"xpos"			"c-300"
 		"ypos"			"334"
 		"zpos"			"12"
-		"wide"			"72"
+		"wide"			"56"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"

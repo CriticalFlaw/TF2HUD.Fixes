@@ -24,7 +24,7 @@
 		"labelText"		"#IT_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"25"

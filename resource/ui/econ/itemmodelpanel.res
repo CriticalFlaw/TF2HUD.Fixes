@@ -68,7 +68,6 @@
 			"start_framed"		"1"
 
 			"disable_manipulation"	"1"
-			"inventory_image_type"  "1"
 
 			"model"
 			{
@@ -94,7 +93,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"center"
+			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}

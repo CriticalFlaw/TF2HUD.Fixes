@@ -353,8 +353,7 @@
 		
 		if_mvm
 		{
-			"xpos"				"415"
-			"ypos"				"265"
+			"visible"		"0"
 		}
 	}
 	"ServerLabel"
@@ -503,7 +502,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"17"
+		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
@@ -527,7 +526,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"17"
+		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"red"
 		//"show_columns"	"1"
@@ -578,7 +577,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"357"
+			"ypos"		"428"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -631,7 +630,7 @@
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
 		"xpos_lodef"	"12"
-		"ypos"			"rs1.392"
+		"ypos"			"350"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -642,7 +641,6 @@
 		
 		if_mvm
 		{
-		    "ypos"			"rs1.390"
 			"visible"		"1"
 		}
 	}
@@ -652,7 +650,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"-10"
-		"ypos"			"rs1.140"
+		"ypos"			"185"
 		"zpos"			"10"		
 		"wide"			"130"
 		"tall"			"260"
@@ -662,14 +660,13 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"18"
+		"fov"			"12"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
 
 		if_mvm
 		{
-		    "ypos"			"rs1.138"
 			"visible"		"0"
 		}
 				
@@ -682,13 +679,110 @@
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"
-			"origin_z" "-100"
+			"origin_z" "-60"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
 		
 			"modelname"		""
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"25"
+				"angles_x"		"-17"
+				"angles_y"		"145"
+				"angles_z"		"0"
+				"origin_x"		"105"
+				"origin_y"		"4"
+				"origin_z"		"-82"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-3"
+				"origin_z"		"-97"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"170"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"-4"
+				"origin_z"		"-93"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"178"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-5"
+				"origin_z"		"-96"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"0"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-95"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"168"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-82"
+			}
 		}
 	}
 	"PlayerNameBG"
@@ -721,7 +815,7 @@
 		"xpos"			"115"
 		"ypos"			"377"
 		"zpos"			"3"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

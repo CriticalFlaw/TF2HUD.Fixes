@@ -349,16 +349,4 @@
 			"border"		"ReplayDefaultBorder"
 		}
 	}
-	
-	"ReturnButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"visible"		"0"
-
-		if_left
-		{
-			"visible"		"0"
-		}
-	}
 }

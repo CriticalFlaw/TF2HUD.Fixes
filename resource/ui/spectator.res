@@ -20,7 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"54"	[$WIN32]
+		"tall"			"84"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]		
 		"wide"			"f0"
@@ -52,7 +52,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r0"	[$WIN32]
+		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
 		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
@@ -73,7 +73,7 @@
 		"xpos"			"c-300"	[$WIN32]
 		"xpos_minmode"	"0"
 		"xpos"			"c-200"	[$X360]
-		"ypos"			"80"	[$WIN32]
+		"ypos"			"50"	[$WIN32]
 		"ypos_minmode"	"3"		[$WIN32]
 		"ypos"			"67"	[$X360]
 		"ypos_hidef"	"79"
@@ -142,7 +142,7 @@
 		"xpos"			"c-85"
 		"xpos_hidef"	"c-65"
 		"xpos_lodef"	"40"
-		"ypos"			"98"
+		"ypos"			"68"
 		"ypos_hidef"	"90"
 		"ypos_lodef"	"30"	
 		"wide"			"170"
@@ -334,10 +334,10 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_ypos"		"20"
+		"model_ypos"		"10"
 		"model_center_x"	"1"
-		"model_wide"		"80"
-		"model_tall"		"50"
+		"model_wide"		"90"
+		"model_tall"		"60"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"

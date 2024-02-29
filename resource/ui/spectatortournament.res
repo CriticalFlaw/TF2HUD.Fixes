@@ -37,7 +37,7 @@
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
-				"wide"			"40"
+				"wide"			"50"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -60,7 +60,7 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"3"
+				"xpos"			"2"
 				"ypos"			"2"
 				"zpos"			"2"
 				"wide"			"22"
@@ -104,7 +104,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"20"
+				"xpos"				"22"
 				"ypos"				"-3"
 				"zpos"				"3"
 				"wide"				"32"
@@ -172,8 +172,8 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
-				"xpos"			"8"
-				"ypos"			"8"
+				"xpos"			"30"
+				"ypos"			"18"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
@@ -220,10 +220,16 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+			}
+			
+			if_mvm
+			{
+				"wide"		"55"
+				"tall"		"35"
 			}
 		}
 		
@@ -375,10 +381,10 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_ypos"		"20"
+		"model_ypos"		"10"
 		"model_center_x"	"1"
-		"model_wide"		"80"
-		"model_tall"		"50"
+		"model_wide"		"90"
+		"model_tall"		"60"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
@@ -395,7 +401,6 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
@@ -430,8 +435,8 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"

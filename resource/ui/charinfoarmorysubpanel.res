@@ -16,14 +16,14 @@
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-
+		
 		"thumbnail_bgcolor"			"51 47 46 255"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
-
+		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
-
+		
 		"thumbnails_x"			"c-300"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
@@ -55,7 +55,6 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -204,7 +203,7 @@
 		
 		"model_hide"	"1"
 		"text_center"	"1"
-		"resize_to_text" "0"
+		"resize_to_text" "1"
 		
 		"itemmodelpanel"
 		{
@@ -241,7 +240,7 @@
 			"allow_rot"				"0"
 		}
 	}	
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -249,27 +248,29 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"10000"
-		"wide"			"200"
-		"tall"			"150"
+		"wide"			"250"
+		"tall"			"180"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
-		"text_center_x"		"1"
+		
+		"text_ypos"			"20"
+		"text_center"		"1"
 		"model_hide"		"0"
-		"resize_to_text"	"1"
+		"resize_to_text"	"0"
 		"padding_height"	"15"
 		"name_only"			"1"
-
-		"model_ypos"	"15"
-		"model_wide"	"150"
+		
+		"model_ypos"	"40"
+		"model_xpos"	"50"
+		"model_wide"	"156"
 		"model_tall"	"100"
-
-		"model_center_x"	"1"
-		"hide_collection_panel"		"1"
-
+		
+		"text_forcesize"	"1"
+		"is_mouseover"		"1"
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -344,7 +345,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
-
+		
 	"WikiButton"
 	{
 		"ControlName"	"CExButton"
@@ -368,8 +369,8 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
+	}		
+	
 	"ViewSetButton"
 	{
 		"ControlName"	"CExButton"
@@ -393,32 +394,32 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
+	}		
+	
 	"StoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-295"
-		"ypos"			"290"
+		"xpos"			"c-138"
+		"ypos"			"323"
 		"zpos"			"20"
-		"wide"			"160"
-		"tall"			"20"
+		"wide"			"200"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
+	}		
+	
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -440,30 +441,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"PrevPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"PrevPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&A"
-		"Command"			"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"NextPageShortcut"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"NextPageShortcut"
-		"wide"				"0"
-		"visible"			"1"
-		"labelText"			"&D"
-		"Command"			"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

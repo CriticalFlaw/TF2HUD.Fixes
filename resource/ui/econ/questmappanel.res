@@ -99,7 +99,7 @@
 				"fieldName"		"TipLabel"
 				"font"			"HudFontSmallest"
 				"labelText"		"%tiptext%"
-				"textAlignment"	"north-west"
+				"textAlignment"	"center"
 				"xpos"			"20"
 				"ypos"			"10"
 				"zpos"			"2"

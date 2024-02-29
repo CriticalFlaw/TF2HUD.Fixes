@@ -220,6 +220,11 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RankUpLabel"
@@ -367,12 +372,12 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-50"
-		"team1_max_expand"	"200"
+		"team1_base_x"	"c-45"
+		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c50"
-		"team2_max_expand"	"200"
+		"team2_base_x"	"c47"
+		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
 		{
@@ -533,7 +538,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmall"
+				"font"			"PlayerPanelPlayerName"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -710,22 +715,22 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
 			"xpos"			"6"
-			"ypos"			"40"
+			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"163"
+			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"21"
+			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
 			if_large
 			{
-				"tall"			"312"
+				"tall"			"315"
 			}
 		}
 		"BluePlayerListBG"
@@ -736,7 +741,7 @@
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"139"
-			"tall"			"176"
+			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -848,22 +853,22 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
 			"xpos"			"6"
-			"ypos"			"40"
+			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"163"
+			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"21"
+			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
 			if_large
 			{
-				"tall"			"312"
+				"tall"			"315"
 			}
 		}
 		"RedPlayerListBG"
@@ -874,7 +879,7 @@
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"139"
-			"tall"			"176"
+			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

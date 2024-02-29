@@ -262,7 +262,7 @@
 
 					if_large
 					{
-						"ypos"			"64"
+						"ypos"			"39"
 					}
 				}
 				"BlueTeamScore"
@@ -284,7 +284,7 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 
 				}
@@ -308,7 +308,7 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"BlueTeamWinner"
@@ -330,7 +330,7 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -353,7 +353,7 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"BlueTeamImage"
@@ -372,7 +372,7 @@
 
 					if_large
 					{
-						"ypos"			"54"
+						"ypos"			"29"
 					}
 				}
 				"BlueTeamLabel"
@@ -409,7 +409,7 @@
 
 					if_large
 					{
-						"ypos"			"65"
+						"ypos"			"40"
 					}
 				}
 				"BlueLeaderAvatarBG"
@@ -427,7 +427,7 @@
 
 					if_large
 					{
-						"ypos"			"63"
+						"ypos"			"38"
 					}
 				}
 				"BluePlayerListParent"
@@ -444,7 +444,7 @@
 
 					if_large
 					{
-						"ypos"			"102"
+						"ypos"			"77"
 						"tall"			"340"
 					}
 
@@ -456,12 +456,12 @@
 						"ypos"			"0"
 						"zpos"			"1"
 						"wide"			"p.465"
-						"tall"			"179"
+						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"24"
+						"linespacing"	"26"
 						"linegap"		"4"
 						//"show_columns"	"1"
 
@@ -472,11 +472,11 @@
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"4"
+						"horiz_inset"	"5"
 
 						if_large
 						{
-							"tall"			"310"
+							"tall"			"340"
 							"linegap"		"1"
 						}
 					}
@@ -489,7 +489,7 @@
 					"ypos"			"117"
 					"zpos"			"0"
 					"wide"			"p.2"
-					"tall"			"206"
+					"tall"			"225"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -498,8 +498,8 @@
 
 					if_large
 					{
-						"ypos"			"82"
-						"tall"			"335"
+						"ypos"			"57"
+						"tall"			"360"
 					}
 				}
 			}
@@ -532,7 +532,7 @@
 
 					if_large
 					{
-						"ypos"			"64"
+						"ypos"			"39"
 					}
 				}						
 				"RedTeamScore"
@@ -554,7 +554,7 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -577,7 +577,7 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"RedTeamWinner"
@@ -599,7 +599,7 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -622,7 +622,7 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"RedTeamImage"
@@ -641,7 +641,7 @@
 
 					if_large
 					{
-						"ypos"			"45"
+						"ypos"			"20"
 					}
 				}
 				"RedTeamLabel"
@@ -678,7 +678,7 @@
 
 					if_large
 					{
-						"ypos"			"65"
+						"ypos"			"40"
 					}
 				}
 				"RedLeaderAvatarBG"
@@ -696,7 +696,7 @@
 
 					if_large
 					{
-						"ypos"			"63"
+						"ypos"			"38"
 					}
 				}
 				"RedPlayerListParent"
@@ -713,7 +713,7 @@
 
 					if_large
 					{
-						"ypos"			"102"
+						"ypos"			"77"
 						"tall"			"340"
 					}
 			
@@ -725,12 +725,12 @@
 						"ypos"			"0"
 						"zpos"			"1"
 						"wide"			"p.465"
-						"tall"			"179"
+						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"24"
+						"linespacing"	"26"
 						"linegap"		"4"
 						//"show_columns"	"1"
 
@@ -741,11 +741,11 @@
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"4"
+						"horiz_inset"	"5"
 
 						if_large
 						{
-							"tall"			"310"
+							"tall"			"340"
 							"linegap"		"1"
 						}
 					}
@@ -758,7 +758,7 @@
 					"ypos"			"117"
 					"zpos"			"0"
 					"wide"			"p.2"
-					"tall"			"206"
+					"tall"			"225"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -767,8 +767,8 @@
 
 					if_large
 					{
-						"ypos"			"82"
-						"tall"			"335"
+						"ypos"			"57"
+						"tall"			"360"
 					}
 				}
 			}
